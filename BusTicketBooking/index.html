@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bus Ticket Booking</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef5ff;
+            color: #1d2b45;
+        }
+        header {
+            background: #123b70;
+            color: white;
+            text-align: center;
+            padding: 28px 15px;
+        }
+        header h1 { margin: 0 0 8px; }
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 16px;
+        }
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,.08);
+            overflow-x: auto;
+        }
+        h2 { color: #123b70; margin-top: 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 18px;
+        }
+        th, td {
+            border: 1px solid #d5dfec;
+            padding: 13px;
+            text-align: center;
+        }
+        th { background: #1761a0; color: white; }
+        tr:nth-child(even) { background: #f3f7fc; }
+        .note {
+            margin-top: 18px;
+            padding: 12px;
+            background: #e8f3ff;
+            border-left: 4px solid #1761a0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #52647d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Bus Ticket Booking System</h1>
+        <p>Find your bus and plan your journey</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Available Buses</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bus Name</th>
+                        <th>Source</th>
+                        <th>Destination</th>
+                        <th>Journey Date</th>
+                        <th>Ticket Price</th>
+                        <th>Available Seats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Orange Travels</td>
+                        <td>Warangal</td>
+                        <td>Hyderabad</td>
+                        <td>25-11-2026</td>
+                        <td>₹500</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>VRL Travels</td>
+                        <td>Hyderabad</td>
+                        <td>Vijayawada</td>
+                        <td>26-11-2026</td>
+                        <td>₹650</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>Morning Star</td>
+                        <td>Warangal</td>
+                        <td>Hyderabad</td>
+                        <td>27-11-2026</td>
+                        <td>₹450</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="note"><strong>Note:</strong> This is a static demonstration webpage. Real ticket booking, login, seat selection and payment require backend functionality.</p>
+        </section>
+    </main>
+
+    <footer>Online Bus Ticket Booking System – Practical Project</footer>
+</body>
+</html>
